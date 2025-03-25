@@ -195,16 +195,22 @@
             </header>
             <!---->
             <div class="main">
-                <section class="banner">
-                    <div class="bg" style="background-image: url(./images/banner_bg.jpg);"></div>
+                <section class="banner inner_banner">
+                    <div class="bg" style="background-image: url(./images/about_bg.jpg);"></div>
                     <img src="images/ban_left_top.png" class="img_lt desk" alt="">
-                    <img src="images/ban_right_bottom.png" class="img_rb desk" alt="">
                     <img src="images/ban_top_mob.png" class="img_lt mob" alt="">
-                    <img src="images/ban_bottom_mob.png" class="img_rb mob" alt="">
-                    <h1>המקום שלך<br>
-                        להיות פשוט עצמך</h1>
+                    <h1>מי אנחנו</h1>
                 </section>
-                <section class="comman_container d_flex">
+                <div class="breadcrumb">
+                    <div class="wrapper d_flex d_flex_ac d_flex_jb">
+                        <ul class="d_flex d_flex_ac">
+                            <li><a href="#">ראשי</a></li>
+                            <li><a href="#">אודות</a></li>
+                            <li><p>מי אנחנו</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="comman_container comman_container_inner d_flex">
                     <div class="sidebar_right">   
                         <!-- convenient_contact -->
                         <div class="convenient_contact">
@@ -345,257 +351,157 @@
                             <h3>שנה <br> טובה!</h3>
                         </div>
                     </div>
-                    <div class="sidebar_left">
-                        <div class="you_rights_informations d_flex d_flex_jb">
+                    <div class="sidebar_left">                       
+                       <div class="about_organization d_flex d_flex_jb ">
                             <div class="right_col">
-                                <h2>יש לך זכויות!</h2>
-                                <form>
-                                    <div class="col">
-                                        <input type="text" class="in" placeholder="חיפוש זכויות">
+                                <h2>על הארגון</h2>
+                                <p>כ-60 אלף נכי צה"ל מכלל גופי מערכת הביטחון, הם רק חלק מהמחיר הכבד שמדינת ישראל נאלצה לשלם עבור עצמאותה וכדי לשמור על קיומה. במלחמות ובפעולות האיבה שנכפו עלינו עד כה, התרחב מאד מעגל הנכים והם מהווים כיום את גופו וליבו של ארגון נכי צה"ל.</p>
+                                <p>ארגון נכי צה"ל נוסד בסתיו 1949 על ידי קומץ נכי צה"ל שהיו מאושפזים אותה העת בביתן 6 במחלקת השיקום בתל השומר. ראשית הארגון בשביתה על תנאי האשפוז; שביתה שהסתיימה בפגישה עם ראש הממשלה ושר הביטחון דאז, דוד בן גוריון, בתיווכו של ד"ר חיים שיבא, מנהל בית החולים.</p>
+                                <p>מאז ועד היום הפך הארגון היציג לביתם השני, לעתים הראשון, עבור נכי ונכות צה"ל והוא מממש את יעדיו באמצעות שתי זרועות: שמירה וקידום זכויות וליווי בהליך השיקום.</p>
+                                <div class="convenient_contact convenient_contact_inner">
+                                    <img src="images/c_shap.png" class="c_shap" alt="">
+                                    <h3>יצירת קשר <span><img src="images/drop_c.svg" alt=""></span></h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/c_tell.svg" alt="">  
+                                                    <span>03-6461600</span>                                                
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/c_mail.svg" alt="">  
+                                                <span>irgun@inz.org.il</span>
+                                                
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/c_tell.svg" alt="">  
+                                                <span>03-6421316</span>
+                                            
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="left_col">
+                                <img src="images/about_img.jpg" class="img" alt="">
+                                <div class="col1">
+                                    <h3>"ארגון נכי צה”ל מהווה את פוליסת הביטוח, רשת הביטחון השיקומית, החברתית והערכית לילדינו. אנו מאמינים כי למדינה לה הצבא הטוב ביותר בעולם, נדרש הגוף הטוב בעולם לתת מענה למשרתיה בעת פגיעה או מחלה"</h3>
+                                    <img src="images/c_t_r.png" class="img_rt" alt="">
+                                    <img src="images/c_t_r.png" class="img_bl" alt="">
+                                </div>
+                                <div class="col2">
+                                    <h4>עידן קלימן, יו"ר ארגון נכי צה"ל. יום ההוקרה לפצועי מערכות ישראל ופעולות האיבה, י"ז כסלו תשפ"ג</h4>
+                                    <img src="images/c_t_r.png" class="img_rt" alt="">
+                                    <img src="images/c_t_r.png" class="img_bl" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- The management of the organization -->
+                         <!-- <div class="the_management_organization">
+                            <div class="title d_flex d_flex_jb d_flex_ac">
+                                <h2>הנהלת הארגון</h2>
+                                <div class="search_inner">
+                                    <form >
+                                        <input type="text" class="in" placeholder="חיפוש">
                                         <input type="submit" class="sub">
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="left_col">
-                                <img src="images/info_shap.png" class="shap" alt="">
-                                <h3>סינון מידע מהיר</h3>
-                                <div class="wrap">
-                                    <ul class="d_flex d_flex_ac">
-                                        <li><a href="#">פוסט טראומה</a></li>
-                                        <li><a href="#">זכויות נכי צה״ל</a></li>
-                                        <li><a href="#">תהליכי הכרה</a></li>
-                                        <li><a href="#">פיזיותרפיה</a></li>
-                                        <li><a href="#">אירועי קיץ</a></li>
-                                    </ul>
+                                    </form>
                                 </div>
                             </div>
-                        </div>
-                        <div class="news_announcements">   
-                            <img src="images/news_announcements_shap.jpg" class="shap" alt="">  
-                            <div class="title d_flex d_flex_ac d_flex_jb">
-                                <h2>חדשות והודעות</h2>
-                                <div class="wrap">
-                                    <ul class="d_flex d_flex_ac">
-                                        <li><a href="#">חדשות הארגון</a></li>
-                                        <li><a href="#">ספורט הנכים</a></li>
-                                        <li><a href="#">מן התקשורת</a></li>
-                                        <li><a href="#">עדכונים ומידע חשוב</a></li>
-                                    </ul>
-                                </div>
-                            </div>                       
-                            <div class="inner d_flex">
-                                <div class="col">
-                                    <img src="images/news_shap.jpg" class="n_shap" alt="">
-                                    <div class="img">
-                                        <img src="images/news_img1.jpg" alt="">
-                                        <span class="sec">20.8</span>
-                                    </div>
-                                    <a href="#" class="news">חדשות</a>
-                                    <a href="#" class="link">נבחרי הציבור החדשים בארגון נכי צה"ל</a>
-                                    <p>היום (1.7.24) התקיימה הוועידה הארצית הראשונה לאחר הבחירות שהתקיימו בארגון בראשית חודש...</p>
-                                    <a href="#" class="btn_orange">  קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
-                                <div class="col">
-                                    <img src="images/news_shap.jpg" class="n_shap" alt="">
-                                    <div class="img">
-                                        <img src="images/news_img1.jpg" alt="">
-                                        <span class="sec">20.8</span>
-                                    </div>
-                                    <a href="#" class="news">חדשות</a>
-                                    <a href="#" class="link">נבחרי הציבור החדשים בארגון נכי צה"ל</a>
-                                    <p>היום (1.7.24) התקיימה הוועידה הארצית הראשונה לאחר הבחירות שהתקיימו בארגון בראשית חודש...</p>
-                                    <a href="#" class="btn_orange">  קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
-                                <div class="col">
-                                    <img src="images/news_shap.jpg" class="n_shap" alt="">
-                                    <div class="img">
-                                        <img src="images/news_img1.jpg" alt="">
-                                        <span class="sec">20.8</span>
-                                    </div>
-                                    <a href="#" class="news">חדשות</a>
-                                    <a href="#" class="link">נבחרי הציבור החדשים בארגון נכי צה"ל</a>
-                                    <p>היום (1.7.24) התקיימה הוועידה הארצית הראשונה לאחר הבחירות שהתקיימו בארגון בראשית חודש...</p>
-                                    <a href="#" class="btn_orange">  קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
-                                <div class="col">
-                                    <img src="images/news_shap.jpg" class="n_shap" alt="">
-                                    <div class="img">
-                                        <img src="images/news_img1.jpg" alt="">
-                                        <span class="sec">20.8</span>
-                                    </div>
-                                    <a href="#" class="news">חדשות</a>
-                                    <a href="#" class="link">נבחרי הציבור החדשים בארגון נכי צה"ל</a>
-                                    <p>היום (1.7.24) התקיימה הוועידה הארצית הראשונה לאחר הבחירות שהתקיימו בארגון בראשית חודש...</p>
-                                    <a href="#" class="btn_orange">  קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
-                               
-                            </div>
-                            <a href="#" class="btn">לכל החדשות והאירועים</a>
-                        </div>
-                        <div class="organization_events_slider">
-                            <h2>אירועי ארגון נכי צה״ל</h2>
-                            <div class="inner">
-                                <div class="colin"  data-id="#svgPath">
-                                    <h4>22.6.24 | <strong>בית הלוחם תל-אביב</strong></h4>
-                                    <h3>עברי לידר <br> בהופעה אקוסטית</h3>
-                                    <div class="img">
-                                        <img class="svg-clipped" src="images/ss3.jpg" alt="Cherry Blossoms.">
-                                        <div class="gradient-overlay"></div>
-                                        <svg height="0" width="0">
-                                            <defs>
-                                                <clipPath id="svgPath"  >
-                                                    <path fill="#FFFFFF" stroke="#000000" stroke-width="1.5794" stroke-miterlimit="10" d="M254,33.5A33.5,33.5,0,0,1,287.5,0H681A100,100,0,0,1,781,100V226A100,100,0,0,1,681,326H581a33,33,0,0,0-33,33,33,33,0,0,1-33,33H100A100,100,0,0,1,0,292V167A100,100,0,0,1,100,67H220.5A33.5,33.5,0,0,0,254,33.5Z"></path>
-                                                    </clipPath>
-                                                </defs>
-                                        </svg>
-                                    </div>
-                                    <a href="#" class="btn">הצטרפו עכשיו</a>
-                                </div>
-                                <div class="colin"  data-id="#svgPath2">
-                                    <h4>22.6.24 | <strong>בית הלוחם תל-אביב</strong></h4>
-                                    <h3>עברי לידר <br> בהופעה אקוסטית</h3>
-                                    <div class="img">
-                                        <img class="svg-clipped" src="images/ss3.jpg" alt="Cherry Blossoms.">
-                                        <div class="gradient-overlay"></div>
-                                        <svg height="0" width="0">
-                                            <defs>
-                                                <clipPath id="svgPath2" >
-                                                    <path fill="#FFFFFF" stroke="#000000" stroke-width="1.5794" stroke-miterlimit="10" d="M254,33.5A33.5,33.5,0,0,1,287.5,0H681A100,100,0,0,1,781,100V226A100,100,0,0,1,681,326H581a33,33,0,0,0-33,33,33,33,0,0,1-33,33H100A100,100,0,0,1,0,292V167A100,100,0,0,1,100,67H220.5A33.5,33.5,0,0,0,254,33.5Z"></path>
-                                                    </clipPath>
-                                                </defs>
-                                        </svg>
-                                    </div>
-                                    <a href="#" class="btn">הצטרפו עכשיו</a>
-                                </div>
-                                <div class="colin"  data-id="#svgPath3">
-                                    <h4>22.6.24 | <strong>בית הלוחם תל-אביב</strong></h4>
-                                    <h3>עברי לידר <br> בהופעה אקוסטית</h3>
-                                    <div class="img">
-                                        <img class="svg-clipped" src="images/ss3.jpg" alt="Cherry Blossoms.">
-                                        <div class="gradient-overlay"></div>
-                                        <svg height="0" width="0">
-                                            <defs>
-                                                <clipPath id="svgPath3" >
-                                                    <path fill="#FFFFFF" stroke="#000000" stroke-width="1.5794" stroke-miterlimit="10" d="M254,33.5A33.5,33.5,0,0,1,287.5,0H681A100,100,0,0,1,781,100V226A100,100,0,0,1,681,326H581a33,33,0,0,0-33,33,33,33,0,0,1-33,33H100A100,100,0,0,1,0,292V167A100,100,0,0,1,100,67H220.5A33.5,33.5,0,0,0,254,33.5Z"></path>
-                                                    </clipPath>
-                                                </defs>
-                                        </svg>
-                                    </div>
-                                    <a href="#" class="btn">הצטרפו עכשיו</a>
-                                </div>
+                            <div class="mgt_tab d_flex">
+                                <ul class="mgt_title">
+                                    <li data-tab="mgt1"><a href="#">לשכת היו"ר ולשכת המנכ"ל</a></li>
+                                    <li data-tab="mgt2" class="active"><a href="#">מטה ארגון נכי צה"ל</a></li>
+                                    <li data-tab="mgt3"><a href="#">קרן נכי צה"ל ואגודת הידידים ישראל</a></li>
+                                    <li data-tab="mgt4"><a href="#">יו"ר המחוזות</a></li>
+                                    <li data-tab="mgt5"><a href="#">מנהלי בית הלוחם</a></li>
+                                    <li data-tab="mgt6"><a href="#">יו"ר הנהלת בתי הלוחם</a></li>
+                                </ul>
+                                <div class="mgt_contants">
+                                    <div class="mgt_comman" id="mgt1">
+                                         <div class="inner d_flex">
+                                            <div class="col">
+                                                <div class="img"><img src="images/yossi.png" alt=""></div>
+                                                <h3>יוסי מתתיהו</h3>
+                                                <h4>מנכ"ל הארגון</h4>
+                                                <ul class="link">
+                                                    <li><a href="#">michalebe@inz.org.il</a></li>
+                                                    <li><span>טלפון</span><a href="#">03-6461617</a></li>
+                                                </ul>
+                                                <ul class="social d_flex d_flex_ac">
+                                                    <li><a href="#"><img src="images/t_fb.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_insta.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_linkdin.svg" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <div class="img"><img src="images/rafi.png" alt=""></div>
+                                                <h3>עו"ד עידן קלימן</h3>
+                                                <h4>יו״ר הארגון</h4>
+                                                <ul class="link">
+                                                    <li><a href="#">michalebe@inz.org.il</a></li>
+                                                    <li><span>טלפון</span><a href="#">03-6461617</a></li>
+                                                </ul>
+                                                <ul class="social d_flex d_flex_ac">
+                                                    <li><a href="#"><img src="images/t_fb.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_insta.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_linkdin.svg" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <div class="img"><img src="images/attorney.png" alt=""></div>
+                                                <h3>רפי כהן צמח</h3>
+                                                <h4>מ״מ יו״ר הארגון</h4>
+                                                <ul class="link">
+                                                    <li><a href="#">michalebe@inz.org.il</a></li>
+                                                    <li><span>טלפון</span><a href="#">03-6461617</a></li>
+                                                </ul>
+                                                <ul class="social d_flex d_flex_ac">
+                                                    <li><a href="#"><img src="images/t_fb.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_insta.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_linkdin.svg" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <div class="img"></div>
+                                                <h3>שרון בן לבן</h3>
+                                                <h4>רמ״ט יו״ר הארגון</h4>
+                                                <ul class="link">
+                                                    <li><a href="#">michalebe@inz.org.il</a></li>
+                                                    <li><span>טלפון</span><a href="#">03-6461617</a></li>
+                                                </ul>
+                                                <ul class="social d_flex d_flex_ac">
+                                                    <li><a href="#"><img src="images/t_fb.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_insta.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_linkdin.svg" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <div class="img"></div>
+                                                <h3>מיכל אבנשפנגר</h3>
+                                                <h4>עוזרת מנכ"ל</h4>
+                                                <ul class="link">
+                                                    <li><a href="#">michalebe@inz.org.il</a></li>
+                                                    <li><span>טלפון</span><a href="#">03-6461617</a></li>
+                                                </ul>
+                                                <ul class="social d_flex d_flex_ac">
+                                                    <li><a href="#"><img src="images/t_fb.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_insta.svg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/t_linkdin.svg" alt=""></a></li>
+                                                </ul>
+                                            </div>
 
+                                         </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="next_prev_col d_flex d_flex_ac d_flex_jb">
-                                <div class="arrow prev"><img src="images/ss_arrow.svg" alt="ss_arrow"> <span>לאירוע הקודם</span></div>
-                                <a href="#" class="btn">לכל הארועים</a>
-                                <div class="arrow next"><span>לאירוע הבא</span> <img src="images/ss_arrow.svg" alt="ss_arrow"> </div>
-                            </div>
-                        </div>
-                        <div class="events_slider">
-                            <h2>כותרת לחלק הזה</h2>
-                            <div class="inner owl-carousel">
-                                <div class="colin">
-                                    <img src="images/event_s1.jpg" class="img" alt="event_s1">
-                                    <h3>המשחקים הפראלימפים <br>
-                                        בפריז 2024</h3>
-                                    <img src="images/event_s_layer.png" class="layer" alt="">
-                                    <a href="#" class="btn_orange">קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
-                                <div class="colin">
-                                    <img src="images/event_s2.jpg" class="img" alt="event_s2">
-                                    <h3>רפורמה "נפש אחת"</h3>
-                                    <img src="images/event_s_layer.png" class="layer" alt="">
-                                    <a href="#" class="btn_orange">קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
-                                <div class="colin">
-                                    <img src="images/event_s3.jpg" class="img" alt="event_s3">
-                                    <h3>חוברת הישגים וזכאויות</h3>
-                                    <img src="images/event_s_layer.png" class="layer" alt="">
-                                    <a href="#" class="btn_orange">קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
+                         </div> -->
+                        <!-- The management of the organization end -->
 
-                                <div class="colin">
-                                    <img src="images/event_s1.jpg" class="img" alt="event_s1">
-                                    <h3>המשחקים הפראלימפים <br>
-                                        בפריז 2024</h3>
-                                    <img src="images/event_s_layer.png" class="layer" alt="">
-                                    <a href="#" class="btn_orange">קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
-                                <div class="colin">
-                                    <img src="images/event_s2.jpg" class="img" alt="event_s2">
-                                    <h3>רפורמה "נפש אחת"</h3>
-                                    <img src="images/event_s_layer.png" class="layer" alt="">
-                                    <a href="#" class="btn_orange">קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
-                                <div class="colin">
-                                    <img src="images/event_s3.jpg" class="img" alt="event_s3">
-                                    <h3>חוברת הישגים וזכאויות</h3>
-                                    <img src="images/event_s_layer.png" class="layer" alt="">
-                                    <a href="#" class="btn_orange">קראו עוד <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
-                                </div>
-                              
-                            </div>                           
-                        </div>
-                        <div class="idf_disabled_organization d_flex d_flex_ac d_flex_jb">
-                            <h2>ארגון נכי צה״ל</h2>
-                            <form >
-                                <div class="inner d_flex d_flex_ac">
-                                    <div class="col">
-                                        <select class="in">
-                                            <option value='מחוז ת"א-יפו והמרכז'>מחוז ת"א-יפו והמרכז</option>
-                                            <option value='מחוז ת"א-יפו והמרכז 1'>מחוז ת"א-יפו והמרכז 1</option>
-                                        </select>
-                                    </div>
-                                    <div class="col">
-                                        <select class="in">
-                                            <option value='בית הלוחם תל אביב'>בית הלוחם תל אביב</option>
-                                            <option value='בית הלוחם תל אביב 1'>בית הלוחם תל אביב 1</option>
-                                        </select>
-                                    </div>
-                                    <input type="submit" value="לאתר בית הלוחם" class="sub">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="central_district d_flex d_flex_jb">
-                            <div class="right_col">
-                                <h2>מחוז ת"א-יפו <br>
-                                    והמרכז</h2>
-                                <div class="divide d_flex d_flex_jb">
-                                    <p>שמואל ברקאי 49
-                                        אפקה, תל־אביב</p>
-                                    <a href="#" class="btn">תיאום פגישה אישית</a>
-                                </div>
-                                <ul class="time_table">
-                                    <li><span>ראשון - חמישי</span><span>9:00 - 17:00</span></li>
-                                    <li><span>ימי שיש וערבי חג</span><span>סגור</span></li>
-                                    <li><span>מוצ״ש</span><span>22:00 - צאת השבת</span></li>
-                                </ul>
-                                <ul class="activity">
-                                    <li><a href="#"><span>ספורט</span> <img src="images/mid_orange_btn_arrow.svg" alt=""></a></li>
-                                    <li><a href="#"><span>קהילה</span> <img src="images/mid_orange_btn_arrow.svg" alt=""></a></li>
-                                    <li><a href="#"><span>תרבות</span> <img src="images/mid_orange_btn_arrow.svg" alt=""></a></li>
-                                    <li><a href="#"><span>שיקום</span> <img src="images/mid_orange_btn_arrow.svg" alt=""></a></li>
-                                    <li><a href="#"><span>פיזיותרפיה</span> <img src="images/mid_orange_btn_arrow.svg" alt=""></a></li>
-                                </ul>
-                                <img src="images/meeting_layer.png" class="shap" alt="">
-                                <ul class="social_link">
-                                    <li><a href="#"><img src="images/s_email.svg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/s_whats.svg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/s_map.svg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/s_web.svg" alt=""></a></li>
-                                </ul>
-                            </div>
-                            <div class="left_col">
-                                <div class="image_slider owl-carousel">
-                                    <div class="col"><img src="images/m_ss1.jpg" alt=""></div>
-                                    <div class="col"><img src="images/m_ss1.jpg" alt=""></div>
-                                </div>
-                                <div class="map">
-                                    <img src="images/map.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
                     </div>
+                    <!-- sidebar left end -->
                 </section>
         </div>
         <!-- FOOTER -->
