@@ -7,9 +7,14 @@
     .you_rights_informations ul { padding-right: 24px; }
     .you_rights_informations ul li:not(:last-child) { margin-left: 6px; }
     .search_dropdown .inner { max-width: 910px; margin-left: 247px; }
-
     .menu_dropdown .inner { max-width: 1137px; margin-left: 80px; }
     .menu_dropdown { padding: 30px 0 100px; }
+    /* about page */
+    .inner_banner.banner .img_lt { max-width: 650px; }
+    .mgt_tab .mgt_contants .col { width: 18.3%; }
+    .mgt_tab .mgt_contants .col .link li a, 
+    .mgt_tab .mgt_contants .col .link li span { font-size: 16px; }
+
 
 
 }
@@ -30,6 +35,22 @@
      .search_dropdown h2 { margin-bottom: 20px; }
      .search_dropdown .in { height: 61px; }
      .menu_dropdown { padding: 30px 0 100px; top: 105px; }
+     /* about page */
+     .inner_banner.banner .img_lt { max-width: 560px; }
+     .breadcrumb .wrapper{padding: 0 20px;}
+    .mgt_tab .mgt_contants .col h3,.mgt_tab .mgt_contants .col h4{ font-size: 16px; }
+    .mgt_tab .mgt_contants .col .link li a, .mgt_tab .mgt_contants .col .link li span { font-size: 14px; }
+    .how_does_orgn_work .right_col { padding: 25px 20px 20px 36px; }
+    .how_does_orgn_work .owl-dots { bottom: 20px; }
+    .about_organization>div{width: calc(50% - 15px) !important;}
+    .about_organization .left_col .img { position: absolute; }
+    .about_organization .left_col .col1 h3 { font-size: 18px; line-height: 22px; }
+    .about_organization .left_col .col1 { width: 273px; padding: 0 20px 15px 0; }
+    .about_organization .left_col .col2 { width: 274px; padding: 15px 15px 0 25px; }
+    .districts_blogs .col h3 { max-width: 96px; font-size: 16px; }
+    
+    
+
 
 }
 /* 1280 */
@@ -57,11 +78,25 @@
     .menu_dropdown .inner { max-width: 1000px; margin-left: 40px; }
     .menu_dropdown .col { width: 248px; border-radius: 23px; padding: 20px 20px; }
     .menu_dropdown .col:last-child { width: 430px; min-height: 283px; }
+    /* about page */
+    .inner_banner.banner .img_lt { max-width: 500px; }
+    .mgt_tab .mgt_contants .col { width: 23.3%; }
+    .mgt_tab .mgt_contants .col:nth-child(4n){margin-left: 0;}
+    .how_does_orgn_work .left_col { width: 460px; height: 330px; }
+    .how_does_orgn_work .right_col { padding: 20px 0px 20px 25px; width: calc(100% - 460px); }
+    .how_does_orgn_work .right_col p{font-size: 16px;line-height: 20px;}
+    .districts_blogs .text .right_col { width: calc(50% - 20px); }
+    .the_chairmen_orgn  { padding: 45px 0 20px; }
+    .the_chairmen_orgn h2 { margin-bottom: 30px; }
+    .districts_blogs .col { width: 19.2%; height: 287px; margin-left: 1%; }
 
+    
+    
 
 }
 @media only screen and (max-width:1279px)
 {
+    p{font-size: 16px;}
     a { font-size: 16px; }
     h1 { font-size: 60px; line-height: 0.81; }
     h2 { font-size: 28px; line-height: 30px; }
@@ -110,6 +145,32 @@
     nav>ul>li.drop::before { left: auto; right: calc(100% + 8px); }
     .menu_dropdown .col ul li a { font-size: 16px; line-height: 40px; padding: 0px 10px 0 36px; }
 
+     /* about page */
+     .inner_banner.banner .img_lt { max-width: 430px; }
+     .about_organization{flex-direction: column-reverse;}
+     .about_organization .left_col{margin-bottom: 40px;}
+     .about_organization>div { width:100% !important; }
+     .mgt_tab .mgt_contants .col { width: 48%; }
+     .mgt_tab .mgt_contants .col:nth-child(4n),.mgt_tab .mgt_contants .col:nth-child(2n) { margin-left: 0; }
+     .new_job_orgn .col { padding: 12px 10px 40px; width: 23.5%; margin-top: 26px; margin-left: 2%; }
+     .new_job_orgn .col p { line-height: 20px; font-size: 14px; }
+     .new_job_orgn .btn_orange { line-height: 30px; padding: 0px 14px 0 0; font-size: 16px; width: 112px; }
+     .new_job_orgn .shap { max-width: 130px; }
+     .how_does_orgn_work .colin {flex-direction: column-reverse;}
+    .how_does_orgn_work .right_col { padding: 20px 0px 20px 25px; width: 100%; }
+    .how_does_orgn_work .left_col { width: 100%; height: auto; }
+    .how_does_orgn_work .owl-dots{display: none;}
+    .how_does_orgn_work .owl-nav { width: 86px; top: 330px; bottom: auto; left: 14px; }
+    .how_does_orgn_work .convenient_contact_inner{margin-bottom: 0;}
+    .districts_blogs .col { width: 30%; margin-left: 3%; margin-bottom: 20px; }
+    .districts_blogs .text .right_col { width: 100%; }
+    .the_chairmen_orgn .col .img { width: 190px; height: 190px; }
+    .the_chairmen_orgn .col .text { width: calc(100% - 190px); position: relative; }
+    .the_chairmen_orgn .col .tag { padding: 0 10px; line-height: 31px; font-size: 16px; min-width: 90px; }
+    .the_chairmen_orgn .col .tag::after { top: 11px; }
+    .districts_blogs_text { padding-bottom: 20px; }
+    
+
 
 
 }
@@ -135,8 +196,8 @@
 
     .search_dropdown{display: none;}
     .menu_dropdown{display: none;}
-    .mobile_menu { display: block; position: fixed; left: 0; top: 84px; width: 100%; height: calc(100vh - 84px); background-color: var(--body);overflow: hidden;padding-bottom:82px;opacity: 0;pointer-events: none;transition: 0.4s ease all;        overflow-y: auto;}
-    .mobile_menu.open{opacity: 1;pointer-events: all;}
+    .mobile_menu { display: block; position: fixed; left: 0; top: 84px; width: 100%; height: calc(100vh - 84px); background-color: var(--body);overflow: hidden;padding-bottom:82px;opacity: 0;pointer-events: none !important;transition: 0.4s ease all;overflow-y: auto;visibility: hidden;}
+    .mobile_menu.open{opacity: 1;pointer-events: all !important;visibility: visible;}
     .mobile_menu .search_dropdown{display:block;opacity: 1;pointer-events: all;position: relative;top: 0;padding: 17px 16px 33px;}
     .mobile_menu .search_dropdown .bg{display: none;}
     .mobile_menu .search_dropdown h2 { margin-bottom: 12px; font-size: 24px; }
@@ -195,7 +256,7 @@
 
 }
 .mob{display: none;}
-
+.mgt_tab .mgt_contants .mgt_comman .mobtitle{display: none;}
 @media only screen and (max-width:767px)
 {
     
@@ -208,7 +269,7 @@
     header .donations { margin:0;padding: 0px 10px;line-height: 30px;}
     header .donations img { margin-left: 5px; }
     header .left_col { margin-left: 32px; }
-    .mobile_menu { top: 80px; height: calc(100vh - 80px); padding-bottom: 42px; }
+    .mobile_menu { top: 80px; height: calc(100vh - 80px); padding-bottom: 42px;}
     .mobile_menu .menu_dropdown .col:last-child { min-height: 232px; max-width: 288px; }
     .menu_dropdown .col:last-child h4 { top: 11px; }
     .menu_dropdown .col:last-child .btn { padding: 0px 37px; }
@@ -310,12 +371,90 @@
     .bottom_footer .right_col p { width: 50%; position: absolute; bottom: -66px; right: 0; }
     footer .bottom_footer .wrapper { justify-content: flex-end; }
 
+    /* about page  */
+    .inner_banner.banner .bg { border-radius: 30px; }
+    .breadcrumb .wrapper { padding: 0 16px; }
+    .breadcrumb ul li:first-child a{font-size: 0;}
+    .breadcrumb ul li:first-child a img { display: inline-flex ; vertical-align: super; position: relative; top: 5px; }
+    .about_organization .left_col{display: none;}
+    .comman_container { padding: 20px 16px 0 16px; }
+    .about_organization .right_col h2 { margin-bottom: 19px; }
+    .convenient_contact_inner { max-width: 100% !important; }
+    .convenient_contact_inner h3{box-shadow: none;}
+    .the_management_organization { margin-top: 0; }    
+    .the_management_organization .title h2{margin-bottom: 20px;width: 100%;}
+    .the_management_organization .search_inner { width: 100%; }
+    .mgt_tab .mgt_title{display: none;}
+    .mgt_tab .mgt_contants.bordertop { border-radius: 20px !important; width: 100%; }
+    .mgt_tab .mgt_contants { padding: 16px; }
+    .mgt_tab .mgt_contants .col { width: 100%; margin: 0 0 13px; padding: 10px; min-height: auto;display: flex;flex-wrap: wrap;}
+    .mgt_tab .mgt_contants .social { position: relative; bottom: 0; right: 0;margin-top: 20px;}
+    .mgt_tab .mgt_contants .col .link{width: 100%;margin-top: 0;}
+    .mgt_tab .mgt_contants .social li a { width: 44px; height: 44px; }
+    .mgt_tab .mgt_contants .social li a img { width: 18px; height: 24px; }
+    .mgt_tab .mgt_contants .col .link li a, .mgt_tab .mgt_contants .col .link li span { font-size: 18px; }
+    .mgt_tab .mgt_contants .col .img { width: 57px; height: 57px; margin-bottom: 16px; }
+    .mgt_tab .mgt_contants .col .img img{width: 100%;height: 100%;}
+    .mgt_tab .mgt_contants .col .text{width: calc(100% - 57px);padding-right: 12px;}
+    .mgt_tab .mgt_contants .col h3{font-size: 24px;}
+    .mgt_tab .mgt_contants .col h4{font-size: 18px;}
+    .mgt_tab .mgt_contants { background-color: transparent;padding: 0;}
+    .mgt_tab .mgt_contants .mgt_comman{display: block;background-color: #F1D9BC;margin-bottom: 12px;padding: 16px;border-radius: 30px;}
+    .mgt_tab .mgt_contants .mgt_comman .inner {display: none;}
+    .mgt_tab .mgt_contants .mgt_comman .inner.open{padding-top: 20px;}
+    .mgt_tab .mgt_contants .mgt_comman .mobtitle{display: block;padding-left: 25px;position: relative;font-size: 18px;font-weight: 700;line-height: 1;color: #273F74;}
+    .mgt_tab .mgt_contants .mgt_comman .mobtitle img{position: absolute;left:0px;top: 0;bottom: 0;margin: auto;transition: 0.4s ease all;}
+    .mgt_tab .mgt_contants .mgt_comman .mobtitle.open img{transform: scale(-1);}
+    .new_job_orgn { margin-top: 45px;padding-bottom: 80px;position: relative;}
+    .new_job_orgn h2{margin-bottom: 31px;}
+    .new_job_orgn .col { padding: 18px 20px 40px; width: 254px; margin-top: 0; margin-left: 0; }
+    .new_job_orgn .btn_blue { position: absolute; left: 0; right: 0; bottom: 0; }
+    .new_job_orgn .shap { max-width: max-content;width: auto; }
+    .new_job_orgn .btn_orange img{width: auto;}
+    .how_does_orgn_work { padding: 12px; border-radius: 20px; margin-top: 55px; }
+    .how_does_orgn_work .left_col { width: 100%; height: 205px; }
+    .how_does_orgn_work .left_col .shap { max-width: 122px; }
+    .how_does_orgn_work .right_col { padding: 38px 12px 12px 12px; width: 100%; }
+    .how_does_orgn_work .owl-nav button { width: 40px; height: 40px; }
+    .how_does_orgn_work .owl-nav { width: 92px; top: 166px; bottom: auto; left: 0; }
+    .how_does_orgn_work h2 { font-size: 35px; }
+    .how_does_orgn_work .right_col p { font-size: 18px; line-height: 24px; }
+    .districts_blogs { padding-top: 49px; }
+    .districts_blogs h2 { margin-bottom: 19px; }
+    .districts_blogs>p { max-width:100%; margin-bottom: 27px; }
+    .districts_blogs .col { width: 100%; margin-left: 0; margin-bottom: 12px;height: 165px;}
+    .districts_blogs .col .img { height: 100%; width: 100%; }
+    .districts_blogs .col h3 { width: 186px; font-size: 18px; max-width: 100%; bottom: 16px; right: 16px; }
+    .districts_blogs .col .shap { width: 65px; height: 75px; }
+    .districts_blogs_text{padding-top: 30px;border-top: 1px solid #001950;padding-bottom: 0;}
+    .districts_blogs .text { margin-top: 20px; }
+    .districts_blogs .text label { font-size: 18px; line-height: 24px; margin-bottom: 15px; }
+    .districts_blogs .text p{line-height: 24px;font-size: 18px;}
+    .districts_blogs .title{display: flex;width: 100%;flex-wrap: wrap;position: relative;}
+    .districts_blogs .title h2{width: 100%;}
+    .districts_blogs .title .drop{width: 24px;height: 24px;border-radius: 50%;border: 1px solid var(--dark-blue);position: absolute;left: 0;top: 0;display: flex;justify-content: center;align-items: center;}
+    .districts_blogs .title .drop span{width: 12px;position: relative;height: 1px;background-color: var(--dark-blue);}
+    .districts_blogs .title .drop span::after{content:'';position: absolute;width: 100%;height: 100%;background-color: var(--dark-blue);transform: rotate(90deg);}
+    .districts_blogs .title.open .drop span::after{opacity: 0;}
+    .districts_blogs .wrap{display: none;}
+    .the_chairmen_orgn .col .img { width: 232px; height: 235px; }
+    .the_chairmen_orgn h2{margin-bottom: 0;}
+    body .the_chairmen_orgn .col {border: none !important;margin: 0 auto !important;    width: 100%;flex-direction: column;justify-content: center;}
+    body .the_chairmen_orgn .col .img { margin: 0 auto;z-index: 2;}
+    body .the_chairmen_orgn .col .text { width: 100%; position: relative; text-align: center;margin-bottom: 45px;margin-top:48px;z-index: 2;}
+    body .the_chairmen_orgn .col .text::after {border: none !important;}
+    body .the_chairmen_orgn .col .tag {left: 0 !important;right: 0 !important;position: relative; }
+    body .the_chairmen_orgn .col .tag::after { right: 0 !important; left: 0 !important; margin: 0 auto; top: 48px; }
+    .the_chairmen_orgn .col:nth-child(2) { padding-top: 0; margin-top: 40px; }
+    .the_chairmen_orgn .inner {max-width:232px;margin: 0 auto;}
+    body .the_chairmen_orgn .col::after { content: ''; background-image: url(../images/the_chairmen_line.png); background-repeat: no-repeat; position: absolute; top: 234px; left: -30px; width: calc(100% + 56px); height: 370px; background-size: 100% 100%; }
+    body .the_chairmen_orgn .col:last-child:after{display: none;}
 
 
-
-
+    
 
 }
+
 
 @media (max-height: 500px)
 {

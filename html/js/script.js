@@ -314,7 +314,59 @@ $(document).ready(function(){
       };
   
     // how_does_orgn_work
+    // about tabbing 
+    jQuery('.mgt_tab .mgt_contants .mgt_comman .mobtitle').click(function(){
+        var _this = jQuery(this);
+        if(_this.hasClass('open')){
+          _this.removeClass('open');
+          _this.next().slideUp();
+          _this.next().removeClass('open');
+        }else{
+          _this.addClass('open');
+          _this.next().addClass('open');
+          _this.next().slideDown();
+        }
+    });
+    // new_job_orgn
+    if(jQuery(window).width() < 768){
+      if(jQuery('.new_job_orgn ').length > 0){
+        jQuery(".new_job_orgn .inner").addClass('owl-carousel'); 
+            setTimeout(function(){
+              var new_job_orgn = jQuery(".new_job_orgn .inner");
+              new_job_orgn.owlCarousel({
+                items:1,
+                margin:8,      
+                loop: false,
+                nav: false, 
+                autoWidth:true, 
+                rtl:true,   
+                dots:false,   
+          });
   
+        },50);
+      };
+    }
+  
+    // districts_blogs
+    if(jQuery(window).width() < 768){
+      jQuery('.districts_blogs .title').click(function(){
+        var _this = jQuery(this);
+        if(_this.hasClass('open')){
+          _this.removeClass('open');
+          _this.next().slideUp();
+        }else{
+          _this.addClass('open');
+          _this.next().slideDown();
+        }
+      });
+    }
+
+
+
+
+
+
+
 
 
 });
