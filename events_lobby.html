@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="he">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">     
+        <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+        <link rel="icon" href="images/favicon.png">
+        <!-- <link rel="stylesheet" type="text/css" href="css/fonts.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/screen.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <title>INZ-Events-lobby</title>
+    </head>
+    <body class="body_white">
+        <!-- FULL WRAPPER-->
+        <div id="full_wrapper">
+            <!-- HEADER -->
+             <div class="overlay"></div>
+             <!-- sticky nav -->
+            
+             <!-- sticky nav end -->
+            <header>
+                <div class="ham">
+                    <span></span>
+                </div>
+                <div class="wrapper d_flex d_flex_ac d_flex_jb">
+                    <div class="right_col d_flex d_flex_ac">
+                        <a href="index.html" class="brand">
+                            <img src="images/brand.svg" alt="brand">
+                            <img src="images/brand_blue.svg" class="hover" alt="brand">
+                        </a>
+                        <nav>
+                            <ul class="d_flex d_flex_ac">
+                                <li><a href="#">ראשי</a></li>
+                                <li class="drop">
+                                    <a href="#">ארועים</a>
+                                    <span class="arrow"><img src="images/arrowm.png" alt=""></span>
+                                    <div class="menu_dropdown">
+                                        <div class="bg">
+                                            <img src="images/search_shap.png" class="shap" alt="">
+                                        </div>
+                                        <div class="inner d_flex d_flex_jb">
+                                            <div class="col">
+                                                <h3>מה שקורה בארגון</h3>
+                                                <ul>
+                                                    <li><a href="#">ארועים ופעילויות <span><img src="images/arrow_m.svg" alt=""></span></a></li>
+                                                    <li><a href="#">חוגים <span><img src="images/arrow_m.svg" alt=""></span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h3>כדאי לקרוא ולדעת</h3>
+                                                <ul>
+                                                    <li><a href="#">ביטאון הלוחם  <span><img src="images/arrow_m.svg" alt=""></span></a></li>
+                                                    <li><a href="#">ארכיון ביטאון הלוחם <span><img src="images/arrow_m.svg" alt=""></span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h4>לא כדאי לפספס</h4>
+                                                <h5>עברי לידר <br>
+                                                    בהופעה אקוסטית</h5>
+                                                <div class="img">
+                                                    <img class="svg-clipped" src="images/event_menu_img.jpg" alt="event_menu_img">
+                                                    <div class="gradient-overlay"></div>
+                                                    <svg height="0" width="0">
+                                                        <defs>
+                                                            <clipPath id="menu_path"  >
+                                                                <path fill="#FFFFFF" stroke="#000000" stroke-width="1.5794" stroke-miterlimit="10" d="M0,30A30,30,0,0,1,30,0H326a30,30,0,0,1,30,30h0a30,30,0,0,0,30,30h90a30,30,0,0,1,30,30V283a30,30,0,0,1-30,30H182.366a26.634,26.634,0,0,1-26.634-26.634h0A26.634,26.634,0,0,0,129.1,259.732H30a30,30,0,0,1-30-30Z"></path>
+                                                                </clipPath>
+                                                            </defs>
+                                                    </svg>
+                                                </div>
+                                                <a href="#" class="btn">קראו עוד</a>
+                                            </div> 
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="drop">
+                                    <a href="#">חדשות והודעות</a>
+                                    <span class="arrow"><img src="images/arrowm.png" alt=""></span>
+                                    <div class="menu_dropdown">
+                                        <div class="bg">
+                                            <img src="images/search_shap.png" class="shap" alt="">
+                                        </div>
+                                        <div class="inner d_flex d_flex_jb">
+                                            <div class="col">
+                                                <h3>מה שקורה בארגון</h3>
+                                                <ul>
+                                                    <li><a href="#">ארועים ופעילויות <span><img src="images/arrow_m.svg" alt=""></span></a></li>
+                                                    <li><a href="#">חוגים <span><img src="images/arrow_m.svg" alt=""></span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h3>כדאי לקרוא ולדעת</h3>
+                                                <ul>
+                                                    <li><a href="#">ביטאון הלוחם  <span><img src="images/arrow_m.svg" alt=""></span></a></li>
+                                                    <li><a href="#">ארכיון ביטאון הלוחם <span><img src="images/arrow_m.svg" alt=""></span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h4>לא כדאי לפספס</h4>
+                                                <div class="img">
+                                                    <img class="svg-clipped" src="images/event_menu_img.jpg" alt="event_menu_img">
+                                                    <div class="gradient-overlay"></div>
+                                                    <svg height="0" width="0">
+                                                        <defs>
+                                                            <clipPath id="menu_path"  >
+                                                                <path fill="#FFFFFF" stroke="#000000" stroke-width="1.5794" stroke-miterlimit="10" d="M0,30A30,30,0,0,1,30,0H326a30,30,0,0,1,30,30h0a30,30,0,0,0,30,30h90a30,30,0,0,1,30,30V283a30,30,0,0,1-30,30H182.366a26.634,26.634,0,0,1-26.634-26.634h0A26.634,26.634,0,0,0,129.1,259.732H30a30,30,0,0,1-30-30Z"></path>
+                                                                </clipPath>
+                                                            </defs>
+                                                    </svg>
+                                                </div>
+                                                <a href="#" class="btn">קראו עוד</a>
+                                            </div> 
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">זכויות והטבות</a>
+                                </li>
+                                <li >
+                                    <a href="#">אודות</a>
+                                </li>
+                                <li><a href="#">יצירת קשר</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="left_col d_flex d_flex_ac">
+                        <div class="search_box">
+                            <a href="javascript:void(0)"><img src="images/search.svg" alt=""></a>
+                            <div class="search_dropdown">
+                                <div class="bg">
+                                    <img src="images/search_shap.png" class="shap" alt="">
+                                </div>
+                                <div class="inner">
+                                    <h2>חיפוש בכל האתר</h2>
+                                    <form>
+                                        <input type="search" placeholder="התחילו כאן " class="in">
+                                        <input type="submit" value="חיפוש" class="btn sub">
+                                    </form>
+                                    <h3>סינון מידע מהיר</h3>
+                                    <div class="wrap">
+                                        <ul class="d_flex d_flex_ac">
+                                            <li><a href="#">פוסט טראומה</a></li>
+                                            <li><a href="#">זכויות נכי צה״ל</a></li>
+                                            <li><a href="#">תהליכי הכרה</a></li>
+                                            <li><a href="#">פיזיותרפיה</a></li>
+                                            <li><a href="#">אירועי קיץ</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="user">
+                            <img src="images/user.svg" alt="">
+                            <span>אזור אישי</span>
+                        </a>
+                        <a href="#" class="donations">
+                            <img src="images/donations.svg" alt="">
+                            <span>תרומות</span>
+                        </a>
+                        <div class="social d_flex d_flex_ac">
+                            <a href="#"><img src="images/fb.svg" alt=""></a>
+                            <a href="#"><img src="images/insta.svg" alt=""></a>
+                            <a href="#"><img src="images/youtube.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile_menu"> </div>
+            </header>
+            <!----> 
+            <div class="main">
+                <section class="banner inner_banner">
+                    <div class="bg" style="background-image: url(./images/events_lobby_bg.jpg);"></div>
+                    <img src="images/ban_left_top.png" class="img_lt desk" alt="">
+                    <img src="images/ban_top_mob.png" class="img_lt mob" alt="">
+                    <h1>ארועים ופעילויות</h1>
+                </section>
+                <div class="breadcrumb">
+                    <div class="wrapper d_flex d_flex_ac d_flex_jb">
+                        <ul class="d_flex d_flex_ac">
+                            <li><a href="#">ראשי <img src="images/home.png" alt=""></a></li>                            
+                            <li><p>ארועים ופעילויות</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="comman_container comman_container_inner d_flex">
+                    <div class="sidebar_right">   
+                        <!-- convenient_contact -->
+                        <div class="convenient_contact">
+                            <img src="images/c_shap.png" class="c_shap" alt="">
+                            <h3>איך נוח לך לפנות אלינו?  <span><img src="images/drop_c.svg" alt=""></span></h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/c_tell.svg" alt="">  
+                                            <span>03-6461600</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <circle cx="10" cy="10" r="9.5" stroke="#001950"/>
+                                            <path d="M6.52145 9.64645C6.32618 9.84171 6.32618 10.1583 6.52145 10.3536L9.70343 13.5355C9.89869 13.7308 10.2153 13.7308 10.4105 13.5355C10.6058 13.3403 10.6058 13.0237 10.4105 12.8284L7.58211 10L10.4105 7.17157C10.6058 6.97631 10.6058 6.65973 10.4105 6.46447C10.2153 6.2692 9.89869 6.2692 9.70343 6.46447L6.52145 9.64645ZM13.75 9.5L6.875 9.5L6.875 10.5L13.75 10.5L13.75 9.5Z" fill="#001950"/></svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/c_mail.svg" alt="">  
+                                        <span>irgun@inz.org.il</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <circle cx="10" cy="10" r="9.5" stroke="#001950"/>
+                                            <path d="M6.52145 9.64645C6.32618 9.84171 6.32618 10.1583 6.52145 10.3536L9.70343 13.5355C9.89869 13.7308 10.2153 13.7308 10.4105 13.5355C10.6058 13.3403 10.6058 13.0237 10.4105 12.8284L7.58211 10L10.4105 7.17157C10.6058 6.97631 10.6058 6.65973 10.4105 6.46447C10.2153 6.2692 9.89869 6.2692 9.70343 6.46447L6.52145 9.64645ZM13.75 9.5L6.875 9.5L6.875 10.5L13.75 10.5L13.75 9.5Z" fill="#001950"/></svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/c_tell.svg" alt="">  
+                                        <span>03-6421316</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <circle cx="10" cy="10" r="9.5" stroke="#001950"/>
+                                            <path d="M6.52145 9.64645C6.32618 9.84171 6.32618 10.1583 6.52145 10.3536L9.70343 13.5355C9.89869 13.7308 10.2153 13.7308 10.4105 13.5355C10.6058 13.3403 10.6058 13.0237 10.4105 12.8284L7.58211 10L10.4105 7.17157C10.6058 6.97631 10.6058 6.65973 10.4105 6.46447C10.2153 6.2692 9.89869 6.2692 9.70343 6.46447L6.52145 9.64645ZM13.75 9.5L6.875 9.5L6.875 10.5L13.75 10.5L13.75 9.5Z" fill="#001950"/></svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- convenient_contact end -->
+                        <!--  -->
+                        <div class="bluebox_side">
+                            <div class="comman_rights rights_benefits">
+                                <a href="#" class="link">זכויות והטבות  <img src="images/rights_arrow.svg" alt=""></a>
+                                <ul class="d_flex d_flex_jb">
+                                    <li>
+                                        <img src="images/rb_1.svg" alt="">
+                                        <span>הלוואות</span>
+                                    </li>
+                                    <li>
+                                        <img src="images/rb_2.svg" alt="">
+                                        <span>ביטוח חיים</span>
+                                    </li>
+                                    <li>
+                                        <img src="images/rb_3.svg" alt="">
+                                        <span>ביטוח בריאות</span>
+                                    </li>
+                                    <li>
+                                        <img src="images/rb_4.svg" alt="">
+                                        <span>ביטוח סיעודי</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="comman_rights useful_information">
+                                <a href="#" class="link"> מידע שימושי  <img src="images/rights_arrow.svg" alt=""></a>
+                                <ul class="d_flex d_flex_jb">
+                                    <li>
+                                        <img src="images/ui_1.svg" alt="">
+                                        <span>טפסים</span>
+                                    </li>
+                                    <li>
+                                        <img src="images/ui_2.svg" alt="">
+                                        <span>זכויות והטבות</span>
+                                    </li>
+                                    <li>
+                                        <img src="images/ui_3.svg" alt="">
+                                        <span>תוכניות שיקום</span>
+                                    </li>
+                                    <li>
+                                        <img src="images/ui_4.svg" alt="">
+                                        <span>מלגות</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="warrior_journal">
+                                <a href="#" class="link"> מידע שימושי  <img src="images/rights_arrow.svg" alt=""></a>
+                                <a href="#" class="btn_blue">הורדה</a>
+                            </div>
+                            <div class="organization_box foundation_box">
+                                <!-- <svg class="clip_svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 264 224">
+                                    <defs>
+                                        <mask id="mask">                     
+                                        <path fill="white" class="shape" d="M264.944,25a25,25,0,0,0-25-25H25.664a25,25,0,0,0-25,25V199a25,25,0,0,0,25,25H27.5a25,25,0,0,0,25-25v-8a25,25,0,0,1,25-25h162.44a25,25,0,0,0,25-25Z" stroke="#000000" stroke-width="10" />
+                                        <rect  id="swipe"  width="264" x="0" y="0" height="224" fill="black" />
+                                        </mask>
+                                    </defs>                  
+                                    <foreignObject style="mask:url(#mask)" width="264" x="0" y="0" height="224">
+                                      <image src="images/idf_img.jpg" width="264" height="224" mask="url(#mask)" alt="">
+                                    </foreignObject>
+                                  </svg> -->
+                                  <img src="images/g1.png" alt="">
+                                  <div class="text">
+                                      <h3>קרן נכי צה״ל
+                                          ZDVF</h3>
+                                      <p>ארגון ללא מטרות רווח שהוקם אחרי מלחמת העצמאות</p>
+                                  </div>
+                                  <a href="#" class="btn_orange" > בקרו אותנו <img src="images/mid_orange_btn_arrow.svg" alt=""></a>
+                            </div>
+                            <div class="organization_box friends_association_box">
+                                <!-- <svg class="clip_svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 264 224">
+                                    <defs>
+                                        <mask id="mask">                     
+                                        <path fill="white" class="shape" d="M264.944,25a25,25,0,0,0-25-25H25.664a25,25,0,0,0-25,25V199a25,25,0,0,0,25,25H27.5a25,25,0,0,0,25-25v-8a25,25,0,0,1,25-25h162.44a25,25,0,0,0,25-25Z" stroke="#000000" stroke-width="10" />
+                                        <rect  id="swipe"  width="264" x="0" y="0" height="224" fill="black" />
+                                        </mask>
+                                    </defs>                  
+                                    <foreignObject style="mask:url(#mask)" width="264" x="0" y="0" height="224">
+                                      <image src="images/idf_img.jpg" width="264" height="224" mask="url(#mask)" alt="">
+                                    </foreignObject>
+                                  </svg> -->
+                                  <img src="images/g2.png" alt="">
+                                  <div class="text">
+                                    <h3>אגודת הידידים
+                                        בישראל
+                                        </h3>
+                                    <p>הסיפור שלהם, הוא הסיפור של כולנו</p>
+                                </div>
+                                  <a href="#" class="btn_orange" > בקרו אותנו<img src="images/mid_orange_btn_arrow.svg" alt=""></a>
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="sidebar_left">                       
+                       <div class="sidebar_inner d_flex d_flex_jb">
+                            <div class="inner_right">
+                                <div class="events_list">
+                                    <h2>ארועים בשבילך</h2>
+                                    <div class="wrap">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="img"><img src="images/events_list_img1.jpg" alt=""></div>
+                                                    <span>ארועי קיץ</span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none"> <path d="M12.861 24.75C19.4116 24.75 24.722 19.4893 24.722 13C24.722 6.51065 19.4116 1.25 12.861 1.25C6.31034 1.25 1 6.51065 1 13C1 19.4893 6.31034 24.75 12.861 24.75Z" stroke="#522F14" stroke-miterlimit="10"/> <path d="M12.7486 18.7172L7.27105 12.8903L12.8413 7.40804" stroke="#522F14" stroke-miterlimit="10"/> <path d="M18.451 13.1199L7.26953 12.8875" stroke="#522F14" stroke-miterlimit="10"/> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="img"><img src="images/events_list_img2.jpg" alt=""></div>
+                                                    <span>משפחות</span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none"> <path d="M12.861 24.75C19.4116 24.75 24.722 19.4893 24.722 13C24.722 6.51065 19.4116 1.25 12.861 1.25C6.31034 1.25 1 6.51065 1 13C1 19.4893 6.31034 24.75 12.861 24.75Z" stroke="#522F14" stroke-miterlimit="10"/> <path d="M12.7486 18.7172L7.27105 12.8903L12.8413 7.40804" stroke="#522F14" stroke-miterlimit="10"/> <path d="M18.451 13.1199L7.26953 12.8875" stroke="#522F14" stroke-miterlimit="10"/> </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="img"><img src="images/events_list_img3.jpg" alt=""></div>
+                                                    <span>צעירים</span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none"> <path d="M12.861 24.75C19.4116 24.75 24.722 19.4893 24.722 13C24.722 6.51065 19.4116 1.25 12.861 1.25C6.31034 1.25 1 6.51065 1 13C1 19.4893 6.31034 24.75 12.861 24.75Z" stroke="#522F14" stroke-miterlimit="10"/> <path d="M12.7486 18.7172L7.27105 12.8903L12.8413 7.40804" stroke="#522F14" stroke-miterlimit="10"/> <path d="M18.451 13.1199L7.26953 12.8875" stroke="#522F14" stroke-miterlimit="10"/> </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="purchase_tickets">
+                                    <div class="bg">
+                                        <img src="images/ss3.jpg" alt="">
+                                        <img src="images/purchase_tickets_shap_bl.png" class="shap shap_bl" alt="">
+                                        <img src="images/purchase_tickets_shap_bl.png" class="shap shap_tr" alt="">
+
+                                        <img src="images/purchase_tickets_shap_bl_mob.png" class="shap mob shap_bl" alt="">
+                                        <img src="images/purchase_tickets_shap_tr_mob.png" class="shap mob shap_tr" alt="">
+                                    </div>
+                                    <a href="#" class="btn_blue">רכישת כרטיסים</a>
+                                    <div class="text">
+                                        <h2>עברי לידר <br> בהופעה אקוסטית</h2>
+                                        <h3>22.6.24 <strong>בית הלוחם תל-אביב</strong></h3>
+                                    </div>
+                                    <div class="tag_list d_flex d_flex_ac">
+                                        <span class="orange"><img src="images/new.png" alt="new"> חדש</span>
+                                        <span class="blue"><img src="images/event.png" alt="event"> ארוע</span>
+                                    </div>
+                                </div>
+                                <div class="additional_events_blogs">
+                                    <div class="inner d_flex">
+                                        <div class="col">
+                                            <div class="bg">
+                                                <img src="images/additional_events_img1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h2>יום משפחה בפארק המים</h2>
+                                                <a href="#" class="btn">רכישת כרטיסים</a>
+                                            </div>
+                                            <div class="bottom_text">
+                                                <h3>22.6.24 <strong>בית הלוחם תל-אביב</strong></h3>
+                                                <img src="images/additional_ev_shap.png" class="shap shap_tr" alt="">
+                                                <img src="images/additional_ev_shap.png" class="shap shap_bl" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="bg">
+                                                <img src="images/additional_events_img1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h2>יום משפחה בפארק המים</h2>
+                                                <a href="#" class="btn">רכישת כרטיסים</a>
+                                            </div>
+                                            <div class="bottom_text">
+                                                <h3>22.6.24 <strong>בית הלוחם תל-אביב</strong></h3>
+                                                <img src="images/additional_ev_shap.png" class="shap shap_tr" alt="">
+                                                <img src="images/additional_ev_shap.png" class="shap shap_bl" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="bg">
+                                                <img src="images/additional_events_img1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h2>יום משפחה בפארק המים</h2>
+                                                <a href="#" class="btn">רכישת כרטיסים</a>
+                                            </div>
+                                            <div class="bottom_text">
+                                                <h3>22.6.24 <strong>בית הלוחם תל-אביב</strong></h3>
+                                                <img src="images/additional_ev_shap.png" class="shap shap_tr" alt="">
+                                                <img src="images/additional_ev_shap.png" class="shap shap_bl" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="bg">
+                                                <img src="images/additional_events_img1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h2>יום משפחה בפארק המים</h2>
+                                                <a href="#" class="btn">רכישת כרטיסים</a>
+                                            </div>
+                                            <div class="bottom_text">
+                                                <h3>22.6.24 <strong>בית הלוחם תל-אביב</strong></h3>
+                                                <img src="images/additional_ev_shap.png" class="shap shap_tr" alt="">
+                                                <img src="images/additional_ev_shap.png" class="shap shap_bl" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="bg">
+                                                <img src="images/additional_events_img1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h2>יום משפחה בפארק המים</h2>
+                                                <a href="#" class="btn">רכישת כרטיסים</a>
+                                            </div>
+                                            <div class="bottom_text">
+                                                <h3>22.6.24 <strong>בית הלוחם תל-אביב</strong></h3>
+                                                <img src="images/additional_ev_shap.png" class="shap shap_tr" alt="">
+                                                <img src="images/additional_ev_shap.png" class="shap shap_bl" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="bg">
+                                                <img src="images/additional_events_img1.jpg" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h2>יום משפחה בפארק המים</h2>
+                                                <a href="#" class="btn">רכישת כרטיסים</a>
+                                            </div>
+                                            <div class="bottom_text">
+                                                <h3>22.6.24 <strong>בית הלוחם תל-אביב</strong></h3>
+                                                <img src="images/additional_ev_shap.png" class="shap shap_tr" alt="">
+                                                <img src="images/additional_ev_shap.png" class="shap shap_bl" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn">ארועים נוספים</a>
+                                </div>
+                            </div>
+                            <div class="inner_left">
+                                <a href="#" class="btn Join_warrior_house_btn">הצטרפו לבית הלוחם שלכם</a>
+                                <div class="recent_activities_side">
+                                    <h2>פעילויות אחרונות</h2>
+                                    <div class="inner">
+                                        <div class="col d_flex d_flex_jb">
+                                            <a href="#" class="img"><img src="images/recent_ac_img1.jpg" alt=""></a>
+                                            <div class="text">
+                                                <a href="#" class="link_text">פעילות ילדים ומשפחות</a>
+                                                <p>תל-אביב</p>
+                                            </div>
+                                            <a href="#" class="link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none"> <path d="M7.80859 7.51044L7.80859 14.2552L14.6171 14.2552" stroke="#001950" stroke-miterlimit="10"/> <path d="M7.80859 14.2552L14.6171 7.51044" stroke="#001950" stroke-miterlimit="10"/> <path d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z" stroke="#001950" stroke-miterlimit="10"/> </svg></a>
+                                        </div>
+                                        <div class="col d_flex d_flex_jb">
+                                            <a href="#" class="img"><img src="images/recent_ac_img1.jpg" alt=""></a>
+                                            <div class="text">
+                                                <a href="#" class="link_text">פעילות ילדים ומשפחות</a>
+                                                <p>תל-אביב</p>
+                                            </div>
+                                            <a href="#" class="link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none"> <path d="M7.80859 7.51044L7.80859 14.2552L14.6171 14.2552" stroke="#001950" stroke-miterlimit="10"/> <path d="M7.80859 14.2552L14.6171 7.51044" stroke="#001950" stroke-miterlimit="10"/> <path d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z" stroke="#001950" stroke-miterlimit="10"/> </svg></a>
+                                        </div>
+                                        <div class="col d_flex d_flex_jb">
+                                            <a href="#" class="img"><img src="images/recent_ac_img1.jpg" alt=""></a>
+                                            <div class="text">
+                                                <a href="#" class="link_text">פעילות ילדים ומשפחות</a>
+                                                <p>תל-אביב</p>
+                                            </div>
+                                            <a href="#" class="link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none"> <path d="M7.80859 7.51044L7.80859 14.2552L14.6171 14.2552" stroke="#001950" stroke-miterlimit="10"/> <path d="M7.80859 14.2552L14.6171 7.51044" stroke="#001950" stroke-miterlimit="10"/> <path d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z" stroke="#001950" stroke-miterlimit="10"/> </svg></a>
+                                        </div>
+                                        <div class="col d_flex d_flex_jb">
+                                            <a href="#" class="img"><img src="images/recent_ac_img1.jpg" alt=""></a>
+                                            <div class="text">
+                                                <a href="#" class="link_text">פעילות ילדים ומשפחות</a>
+                                                <p>תל-אביב</p>
+                                            </div>
+                                            <a href="#" class="link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none"> <path d="M7.80859 7.51044L7.80859 14.2552L14.6171 14.2552" stroke="#001950" stroke-miterlimit="10"/> <path d="M7.80859 14.2552L14.6171 7.51044" stroke="#001950" stroke-miterlimit="10"/> <path d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z" stroke="#001950" stroke-miterlimit="10"/> </svg></a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <!-- sidebar left end -->
+                </section>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div class="top_footer">
+                <div class="wrapper">
+                    <img src="images/footer_logo_shap.png" class="desk shap" alt="">
+                    <img src="images/footer_logo_shap_mob.png" class="mob shap" alt="">
+                    <a href="index.html" class="logo"><img src="images/brand_blue.svg" alt=""></a>
+                    <div class="inner d_flex d_flex_jb d_flex_ac">
+                        <div class="col">
+                            <p>ארגון נכי צה"ל נוסד בשנת 1949 על ידי קומץ נכי צה"ל והפך במרוצת השנים לגוף המרכזי היציג בישראל אשר מעניק מעטפת סיוע מלאה לכלל החיילים, החיילות ואנשי מערכת הביטחון אשר נפצעו או חלו במהלך שירותם.</p>
+                            <p>האירגון קיים בפריסה ארצית, בחמישה סניפים עיקריים: תל אביב, חיפה, ירושלים, אשדוד ובאר שבע. והוא מתפקד, למעל 100,000 נכי ונכות צה״ל, כבית חם וכבסיס למידע רלוונטי ועדכני.  </p>
+                            <ul class="social d_flex d_flex_ac">
+                                <li><a href="#"><img src="images/f_fb.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/f_insta.svg" alt=""></a></li>
+                                <li><a href="#"><img src="images/f_youtube.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="contact_form">
+                            <div class="bg" style="background-image: url(./images/footer_form_bg.png);"></div>
+                            <div class="inner">
+                                <h2>אנחנו פה בשבילך!</h2>
+                                <form >
+                                    <div class="colin d_flex d_flex_jb">
+                                        <div class="col1"><input type="text" placeholder="שם פרטי*" class="in"></div>
+                                        <div class="col1"><input type="text" placeholder="שם משפחה*" class="in"></div>
+                                        <div class="col1"><input type="text" placeholder="מס׳ זהות*" class="in"></div>
+                                    </div>
+                                    <div class="colin d_flex d_flex_jb">
+                                        <div class="col2"><input type="text" placeholder="דואר אלקטרוני*" class="in"></div>
+                                        <div class="col1"><input type="text" placeholder="מספר טלפון*" class="in"></div>
+                                    </div>
+                                    <div class="colin d_flex d_flex_jb">
+                                        <div class="col1">
+                                            <select class="in">
+                                                <option value="">מחוז*</option>
+                                                <option value="test1">test1</option>
+                                                <option value="test2">test2</option>
+                                            </select>
+                                        </div>
+                                        <div class="col1">
+                                            <select class="in">
+                                                <option value="">מחלקה*</option>
+                                                <option value="test1">test1</option>
+                                                <option value="test2">test2</option>
+                                            </select>
+                                        </div>
+                                        <div class="col1">
+                                            <select class="in">
+                                                <option value="">נושא הפניה*</option>
+                                                <option value="test1">test1</option>
+                                                <option value="test2">test2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="colin d_flex">
+                                        <div class="col3"><input type="text" placeholder="תוכן הפניה*" class="in"></div>                                    
+                                    </div>
+                                    <label for="checkbox" class="checkbox">
+                                        <input type="checkbox" id="checkbox" >
+                                        <span>אישור קבלת עדכונים וחדשות מארגון נכי צה״ל</span>
+                                    </label>
+                                    <input type="submit" value="יצירת קשר" class="sub btn">
+                                </form>
+                           </div>
+                        </div>
+                        <div class="main_offices">
+                            <h3>משרדים ראשיים</h3>
+                            <p>שמואל ברקאי 49, אפקה,(בית הלוחם) תל־אביב , ת.ד. 39262 </p>
+                            <a href="#" class="btn">03-6461600</a>
+                            <div class="contact d_flex d_flex_jb">
+                                <label><span>דוא״ל</span><a href="#">irgun@inz.org.il</a></label>
+                                <label><span>פקס</span><a href="#">03-6421316</a></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_footer">
+                <div class="wrapper d_flex d_flex_ac d_flex_jb">
+                    <div class="right_col d_flex d_flex_ac">
+                        <ul class="d_flex d_flex_ac">
+                            <li><a href="#">דרושים/ות</a></li>
+                            <li><a href="#">כח אדם</a></li>
+                            <li><a href="#">תקנון הארגון</a></li>
+                            <li><a href="#">הצהרת נגישות</a></li>
+                            <li><a href="#">נוהל הגנת פרטיות המידע</a></li>
+                        </ul>
+                        <p>© 2024 כל הזכויות שמורות לארגון נכי צה"ל</p>          
+                    </div>
+                    <div class="left_col d_flex d_flex_ac">
+                        <p><a href="https://www.tinker.co.il" target="_blank"><img src="images/Union.svg" alt=""></a><span>Designed with love by </span></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>   
+        <script src="js/owl.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/lenis.js"></script>
+    </body>
+</html>
+
